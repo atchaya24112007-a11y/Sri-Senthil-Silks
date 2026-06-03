@@ -73,14 +73,57 @@ export function Visit() {
               </div>
             </div>
 
-            <div className="bg-card border border-gold/20 p-8 shadow-deep">
-              <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold mb-3">Coming Soon</p>
-              <p className="font-display text-2xl text-cream">QR · WhatsApp · Map</p>
-              <p className="text-cream/70 mt-2 text-sm">
-                Quick scan to reach the store and chat instantly with our team.
-              </p>
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-5 bg-card border border-gold/20 p-6 shadow-deep hover:border-gold/60 transition-colors group"
+            >
+              <img src={whatsappIcon} alt="WhatsApp" className="w-16 h-16 shrink-0" />
+              <div>
+                <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold mb-1">Chat With Us</p>
+                <p className="font-display text-2xl text-cream group-hover:translate-x-1 transition-transform">
+                  WhatsApp →
+                </p>
+                <p className="text-cream/60 text-xs mt-1">+91 99443 58299</p>
+              </div>
+            </a>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <a
+                href={MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-gold/20 p-5 shadow-deep hover:border-gold/60 transition-colors flex flex-col items-center text-center"
+              >
+                <img src={locationQr} alt="Scan for location" className="w-full max-w-[180px] aspect-square object-contain" />
+                <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold mt-4">Scan for Location</p>
+              </a>
+
+              <a
+                href={MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-card border border-gold/20 shadow-deep overflow-hidden group relative min-h-[200px]"
+              >
+                <iframe
+                  src={MAPS_EMBED}
+                  className="absolute inset-0 w-full h-full grayscale contrast-110 opacity-90 group-hover:opacity-100 transition-opacity"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Sri Senthil Silks location"
+                />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-royal to-transparent p-3 text-center">
+                  <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold">Open in Maps →</p>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
         </div>
       </div>
     </section>
