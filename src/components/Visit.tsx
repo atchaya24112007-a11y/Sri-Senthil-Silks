@@ -14,7 +14,7 @@ export function Visit() {
             <span>Visit Our Store</span>
           </div>
           <h2 className="font-display text-4xl md:text-6xl font-light leading-tight">
-            Step Into Our <span className="italic text-gold-gradient">Boutique</span>
+            Visit Our <span className="italic text-gold-gradient">Showroom</span>
           </h2>
           <p className="mt-6 text-cream/70">
             Experience the texture, the sheen, the heritage — in person at Kanchipuram.
@@ -50,7 +50,7 @@ export function Visit() {
               href="tel:+919944358299"
               className="block bg-gold text-primary-foreground p-8 hover:bg-gold-light transition-colors shadow-gold group"
             >
-              <p className="text-[0.65rem] tracking-[0.3em] uppercase">Call the Boutique</p>
+              <p className="text-[0.65rem] tracking-[0.3em] uppercase">Call Our Store</p>
               <p className="font-display text-3xl md:text-4xl mt-2 group-hover:translate-x-1 transition-transform">
                 +91 99443 58299 →
               </p>

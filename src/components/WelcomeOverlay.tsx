@@ -46,7 +46,7 @@ export function WelcomeOverlay() {
           onClick={close}
           className="mt-12 group relative inline-flex items-center gap-3 px-10 py-4 border border-gold/60 text-gold uppercase tracking-[0.25em] text-xs hover:bg-gold hover:text-primary-foreground transition-all duration-500 shadow-gold"
         >
-          <span>Enter Boutique</span>
+          <span>Enter Our Store</span>
           <span className="transition-transform group-hover:translate-x-1">→</span>
         </button>
       </div>
