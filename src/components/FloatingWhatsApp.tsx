@@ -1,5 +1,4 @@
-const WHATSAPP_URL =
-  "https://wa.me/919944358299?text=Hello%20Sri%20Senthil%20Silks,%20I%20would%20like%20to%20know%20more%20about%20your%20silk%20saree%20collections.";
+const WHATSAPP_URL = "https://wa.me/919944358299";
 
 export function FloatingWhatsApp() {
   return (

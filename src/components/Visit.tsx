@@ -2,10 +2,8 @@ import whatsappIcon from "@/assets/whatsapp-button.png";
 import locationQrAsset from "@/assets/location-qr-real.png.asset.json";
 
 const locationQr = locationQrAsset.url;
-const WHATSAPP_URL =
-  "https://wa.me/919944358299?text=Hello%20Sri%20Senthil%20Silks,%20I%20would%20like%20to%20know%20more%20about%20your%20silk%20saree%20collections.";
-const MAPS_URL = "https://maps.app.goo.gl/5Ce3K45DiE9A2Ago9";
-const MAPS_EMBED = "https://www.google.com/maps?q=Sri+Senthil+Silks,+Lakshmi+Complex,+49%2F4D+Mettu+Street,+Little+Kanchipuram,+Kanchipuram+631501&ll=12.8274235,79.7063127&z=18&output=embed";
+const WHATSAPP_URL = "https://wa.me/919944358299";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Sri+Senthil+Silks+Lakshmi+Complex+Kanchipuram";
 
 export function Visit() {
   const details = [
