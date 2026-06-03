@@ -28,7 +28,7 @@ export function WelcomeOverlay() {
       />
       <div className="relative mx-6 max-w-2xl text-center animate-scale-in">
         <div className="divider-gold mb-8 text-xs tracking-[0.4em] uppercase">
-          <span>Est. Kanchipuram</span>
+          <span>Kanchipuram</span>
         </div>
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-light leading-tight">
           Welcome to{" "}
