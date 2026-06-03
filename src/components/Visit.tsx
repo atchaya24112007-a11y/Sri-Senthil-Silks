@@ -124,8 +124,3 @@ export function Visit() {
     </section>
   );
 }
-        </div>
-      </div>
-    </section>
-  );
-}
