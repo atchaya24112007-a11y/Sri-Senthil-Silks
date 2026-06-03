@@ -6,6 +6,7 @@ import { Collections } from "@/components/Collections";
 import { About } from "@/components/About";
 import { Visit } from "@/components/Visit";
 import { Footer } from "@/components/Footer";
+import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -36,6 +37,7 @@ function Index() {
         <Visit />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 }

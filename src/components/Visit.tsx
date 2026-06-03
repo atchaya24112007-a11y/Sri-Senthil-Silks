@@ -98,8 +98,10 @@ export function Visit() {
                 rel="noopener noreferrer"
                 className="bg-card border border-gold/20 p-5 shadow-deep hover:border-gold/60 transition-colors flex flex-col items-center text-center"
               >
-                <img src={locationQr} alt="Scan for location" className="w-full max-w-[180px] aspect-square object-contain" />
-                <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold mt-4">Scan for Location</p>
+                <img src={locationQr} alt="Scan QR for directions to Sri Senthil Silks" className="w-full max-w-[200px] aspect-square object-contain bg-white p-3 rounded-sm" />
+                <p className="text-[0.7rem] tracking-[0.25em] uppercase text-gold mt-4 leading-relaxed">
+                  Scan to Get Directions<br/>to Sri Senthil Silks
+                </p>
               </a>
 
               <a
