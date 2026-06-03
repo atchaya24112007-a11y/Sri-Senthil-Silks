@@ -1,3 +1,10 @@
+import whatsappIcon from "@/assets/whatsapp-button.png";
+import locationQr from "@/assets/location-qr.png";
+
+const WHATSAPP_URL = "https://wa.me/919944358299";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Sri+Senthil+Silks+Kanchipuram";
+const MAPS_EMBED = "https://www.google.com/maps?q=Lakshmi+Complex+Mettu+Street+Little+Kanchipuram&output=embed";
+
 export function Visit() {
   const details = [
     { icon: "📍", label: "Address", value: "Lakshmi Complex, 49/4D Mettu Street, Little Kanchipuram, Kanchipuram - 631501, Tamil Nadu, India" },
