@@ -108,18 +108,15 @@ export function Visit() {
                 href={MAPS_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-card border border-gold/20 shadow-deep overflow-hidden group relative min-h-[200px]"
+                className="group relative flex flex-col items-center justify-center text-center bg-gradient-to-br from-gold to-gold-light text-primary-foreground p-6 shadow-gold hover:shadow-[0_0_40px_rgba(212,175,55,0.5)] transition-all hover:-translate-y-0.5"
               >
-                <iframe
-                  src={MAPS_EMBED}
-                  className="absolute inset-0 w-full h-full grayscale contrast-110 opacity-90 group-hover:opacity-100 transition-opacity"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Sri Senthil Silks location"
-                />
-                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-royal to-transparent p-3 text-center">
-                  <p className="text-[0.65rem] tracking-[0.3em] uppercase text-gold">Open in Maps →</p>
-                </div>
+                <span className="text-3xl mb-2">📍</span>
+                <p className="font-display text-xl md:text-2xl leading-tight">
+                  Open in Google Maps
+                </p>
+                <p className="text-[0.65rem] tracking-[0.3em] uppercase mt-2 opacity-80">
+                  Get Directions →
+                </p>
               </a>
             </div>
           </div>
