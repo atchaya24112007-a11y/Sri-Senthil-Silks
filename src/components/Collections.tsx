@@ -1,8 +1,7 @@
 import bridal from "@/assets/collection-bridal.jpg";
 import traditional from "@/assets/collection-traditional.jpg";
-import soft from "@/assets/collection-soft.jpg";
+import soft from "@/assets/collection-soft-new.jpg";
 import designer from "@/assets/collection-designer.jpg";
-import cotton from "@/assets/collection-cotton.jpg";
 import festive from "@/assets/collection-festive.jpg";
 
 const items = [
@@ -10,7 +9,6 @@ const items = [
   { img: traditional, title: "Traditional Wedding", tag: "Classic", desc: "Temple-border weaves carrying centuries of South Indian heritage." },
   { img: soft, title: "Soft Silk Sarees", tag: "Everyday Luxe", desc: "Featherlight drapes in pastel hues with delicate zari." },
   { img: designer, title: "Designer Sarees", tag: "Contemporary", desc: "Modern motifs woven into timeless silk craftsmanship." },
-  { img: cotton, title: "Cotton Handlooms", tag: "Artisan", desc: "Breathable handwoven cottons in earthy, refined palettes." },
   { img: festive, title: "Festive Collection", tag: "Celebration", desc: "Vibrant rich-toned sarees that bring every occasion to life." },
 ];
 
