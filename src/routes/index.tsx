@@ -1,29 +1,41 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { WelcomeOverlay } from "@/components/WelcomeOverlay";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { Collections } from "@/components/Collections";
+import { About } from "@/components/About";
+import { Visit } from "@/components/Visit";
+import { Footer } from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Sri Senthil Silks — Exclusive Handmade Kanchipuram Silk Sarees" },
+      { name: "description", content: "Authentic Kanchipuram silk sarees direct from weavers. Bridal, traditional, designer & festive collections at wholesale and retail prices." },
+      { property: "og:title", content: "Sri Senthil Silks — Kanchipuram Silk Sarees" },
+      { property: "og:description", content: "Exclusive handmade silk sarees from weavers to you." },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <>
+      <WelcomeOverlay />
+      <Navbar />
+      <main>
+        <Hero />
+        <Collections />
+        <About />
+        <Visit />
+      </main>
+      <Footer />
+    </>
   );
 }
