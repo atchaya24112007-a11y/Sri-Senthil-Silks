@@ -1,5 +1,5 @@
 import whatsappIcon from "@/assets/whatsapp-button.png";
-import locationQrAsset from "@/assets/location-qr-real.png.asset.json";
+import locationQrAsset from "@/assets/trueqr-url.png.asset.json";
 
 const locationQr = locationQrAsset.url;
 const WHATSAPP_URL = "https://wa.me/919944358299";
